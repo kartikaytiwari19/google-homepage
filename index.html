@@ -1,7 +1,33 @@
 <style>
     .bd{
+        
+    }
+    .main{
         margin-top: 125px;
-        margin-left: 250px;
+        margin-left: 310px;
+        margin-bottom: 15px;
+        height: 70px;
+    }
+    .frm{
+        
+    }
+    #search{
+        margin-left: 255px;
+        width:300px;
+        height: 25px;
+        border-radius: 15px;
+    }
+    .btn{
+        margin-top: 25px;
+        margin-left: 290px;
+    }
+    .bt{
+        border-radius: 5px;
+        box-shadow: none;
+        border: none;
+        font: optional;
+        background-color: rgb(228, 228, 228);
+        height: 30px;
     }
 </style>
 <html>
@@ -9,11 +35,14 @@
     <body class="bd">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo" class="main">
+        <div class="frm">
         <form>
-            <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
             <input type="text" name="search" id="search" required>
         </form>
-        <button class="btn" type="search">Google Search</button>
-        <button class="btn" type="lucky">I'm Feeling Lucky</button>
+        </div>
+        <div class="btn">
+        <button class="bt" type="search">Google Search</button>
+        <button class="bt" type="lucky">I'm Feeling Lucky</button>
+        </div>
     </body>
 </html>
