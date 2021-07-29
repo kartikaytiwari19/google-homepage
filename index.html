@@ -4,18 +4,23 @@
     }
     .main{
         margin-top: 125px;
-        margin-left: 310px;
+        margin-left: 300px;
         margin-bottom: 15px;
         height: 70px;
     }
     .frm{
         
+        display: flex;
+        justify-content: center;
     }
     #search{
-        margin-left: 255px;
+        
         width:300px;
         height: 25px;
-        border-radius: 15px;
+        border: none;
+    }
+    #xyz{
+        margin-right: 0px;
     }
     .btn{
         margin-top: 25px;
@@ -29,17 +34,28 @@
         background-color: rgb(228, 228, 228);
         height: 30px;
     }
+    .bor{
+        border: 1px solid rgb(182, 182, 182);
+        margin-left: 210px;
+        margin-right: 210px;
+        height: 25px;
+        border-radius: 20px;
+    }
 </style>
 <html>
     <title>google.com</title>
     <body class="bd">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo" class="main">
+        <div class="bor">
         <div class="frm">
+            <img src="search_icon.png" alt="Search Icon" id="xyz" width="25px" height="25px">
         <form>
             <input type="text" name="search" id="search" required>
         </form>
+        <img src="outline_mic_black_24dp.png" id="xyz" width="25px" height="25px">
         </div>
+    </div>
         <div class="btn">
         <button class="bt" type="search">Google Search</button>
         <button class="bt" type="lucky">I'm Feeling Lucky</button>
