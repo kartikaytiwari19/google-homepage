@@ -3,7 +3,7 @@
         
     }
     .main{
-        margin-top: 125px;
+        margin-top: 70px;
         margin-left: 300px;
         margin-bottom: 15px;
         height: 70px;
@@ -41,9 +41,44 @@
         height: 25px;
         border-radius: 20px;
     }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li{
+        float: right;
+        margin: 15px 5px;
+    }
+    .lf{
+        float: left;
+    }
+    button{
+        border: none;
+        background: none;
+    }
+    .foot{
+        bottom: 0;
+        position: absolute;
+        background-color: rgb(204, 203, 203) ;
+        font-size: medium;
+    }
+    .br{
+        margin-left: 340px;
+    }
 </style>
 <html>
     <title>google.com</title>
+    <div class="navtop">
+        <ul>
+            <li class="lf"><button>About</button></li>
+            <li class="lf"><button>Store</button></li>
+            <li><button>Sign In</button></li>
+            <li><button>Images</button></li>
+            <li><button>Gmail</button></li>
+        </ul>
+    </div>
     <body class="bd">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo" class="main">
@@ -61,4 +96,14 @@
         <button class="bt" type="lucky">I'm Feeling Lucky</button>
         </div>
     </body>
+    <div class="foot">
+        <ul>
+            <li class="lf"> Advertising</li>
+            <li class="lf">Business</li>
+            <li class="lf">How Search Works</li>
+            <li> Privacy</li>
+            <li>Terms</li>
+            <li class="br">Settings</li>
+        </ul>
+    </div>
 </html>
